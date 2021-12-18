@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		#div_tong{
+			width: 100%;
+			height: 800px;
+			/*background: red;*/
+		}
+		/*div trai*/
+
+
+		#div_trai{
+			width: 30%;
+			height: 100%;
+		/*	background: gray;*/
+			float: left;
+
+		}
+		#div_trai > .traii{
+			width: 90%;
+			height: 100%;
+			background: black;
+			float: left;
+
+		}
+		#div_trai > .phaii{
+			width: 10%;
+			height: 100%;
+			background-image: url('./images/soc.jpg');
+			float: left;
+			/*background-repeat:no-repeat ;*/
+
+		}
+		/*div phai*/
+
+
+		#div_phai{
+			width: 70%;
+			height: 100%;
+			background-image: url('./images/sua1.gif');
+			float: left;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+		#div_phai > .hoa{
+			width: 80%;
+			height: 100%;
+			/*background: red;*/
+			float: left;
+		}
+		#div_phai > .hop{
+			width: 20%;
+			height: 100%;
+			float: left;
+			/*background: gray;*/
+		}
+
+	</style>
+</head>
+<body>
+	<div id="div_tong">
+		<div id="div_trai">
+			<div class="traii" style="position: relative; z-index: 10;">
+				<img src="./images/sanho.gif" style="position:absolute; width: 90%; bottom: 0;left: 20%;">
+			</div>
+			<div class="phaii"></div>
+		</div>
+		<div id="div_phai">
+			<div class="hoa">
+				<font color="orange" size="6" style="">
+					<h1 style="padding-left:20px ;" >
+						THAM GIA CLB
+					</h1>
+				</font>
+				<br>
+				<br>
+				<form>
+					<table border="0" style="margin: auto;width: 600px;">
+						<tr>
+							<td colspan="2">
+								Quý độc giả hãy điền đầy đủ thông tin để giam gia phát triển Câu lạc bộ
+								<br>ngày càng vững mạnh.
+							</td>
+						</tr>
+					</table>
+					<br>
+					<table style="background: #a5f8a8; margin: auto;width: 600px; ">
+						<tr>
+							<td align="right" width="30%">
+								Họ và tên:
+							</td>
+							<td>
+								<input type="text" style="width:60%">*
+							</td>
+						</tr>
+						<tr>
+							<td align="right" width="30%"> Địa chỉ:</td>
+							<td>
+								<input type="text" style="width:96%">*
+							</td>
+						</tr>
+						<tr>
+							<td align="right" width="30%">Email:</td>
+							<td>
+								<input type="email" style="width:60%">*
+							</td>
+						</tr>
+						<tr>
+							<td align="right" width="30%">
+								Điện thoại:
+							</td>
+							<td>
+								<input type="number" style="width:40%">*
+							</td>
+						</tr>
+						<tr>
+							<td align="right" width="30%">Ngày sinh:</td>
+							<td>
+								<input type="number" style="width:10%"> / <input type="number" style="width:10%"> / <input type="number" style="width:20%">
+							</td>
+						</tr>
+						<tr>
+							<td align="right" width="30%">Đề tài:</td>
+							<td>
+								<select name="" id="">
+									<option value="">Tìm hiểu Sứa biển</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td align="right" width="30%" >Nhóm:</td>
+							<td>
+								<input type="radio">
+								Nghiên cứu
+							</td>
+						</tr>
+						<tr>
+							<td width="30%"></td>
+							<td><input type="radio">
+								Hải Ngư</td>
+						</tr>
+						<tr>
+							<td width="30%"></td>
+							<td><input type="radio">
+								Viễn dương</td>
+						</tr>
+						<tr>
+							<td width="30%"></td>
+							<td><input type="radio">
+								Mỹ thuật
+							</td>
+						</tr>
+						<tr>
+							<td width="30%"></td>
+							<td><input type="radio">
+								Thực phẩm</td>
+						</tr>
+						<tr>
+							<td width="30%"></td>
+							<td><input type="radio">
+								Sinh viên</td>
+						</tr>
+						<tr>
+							<td align="right" width="30%">Gửi hình:</td>
+							<td>
+								<input type="text" width="50%">
+								<input type="submit" value="Browse..">
+							</td>
+						</tr>
+						<tr>
+							<td align="right" width="30%">Tài liệu:</td>
+							<td><input type="checkbox">Sinh vật biển
+							</td>
+						</tr>
+						<tr>
+							<td align="right" width="30%"></td>
+							<td><input type="checkbox">Các lòa sứa biển
+							</td>
+						</tr>
+						<tr>
+							<td align="right" width="30%"></td>
+							<td><input type="checkbox">San hô
+							</td>
+						</tr>
+						<tr>
+							<td align="right" width="30%"></td>
+							<td><input type="checkbox">Môi trường biển
+							</td>
+						</tr>
+						<tr>
+							<td align="right" width="30%"></td>
+							<td><input type="checkbox">khí hậu
+							</td>
+						</tr>
+						<tr>
+							<td align="right" width="30%"></td>
+							<td><input type="submit" value="Tham gia"><input type="reset" value="Xóa thông tin">
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+			<div class="hop">
+				<img src="./images/nhom1a.jpg">
+				<img src="./images/nhom1b.jpg">
+				<img src="./images/nhom1c.jpg">
+				<img src="./images/nhom1d.jpg">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
